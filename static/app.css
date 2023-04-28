@@ -1,0 +1,26 @@
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.gameboard {
+    border-collapse: collapse;
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+td {
+    width: 20%;
+    height: 20%;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #517548b4;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
